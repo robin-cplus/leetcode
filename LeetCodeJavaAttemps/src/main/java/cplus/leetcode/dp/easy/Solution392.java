@@ -1,8 +1,8 @@
-package cplus.leetcode.solution392;
+package cplus.leetcode.dp.easy;
 
-class Solution {
+class Solution392 {
     public static void main(String[] args) {
-        Solution so = new Solution();
+        Solution392 so = new Solution392();
         System.out.println(so.isSubsequence("abc", "ahbgdc"));
         System.out.println(so.isSubsequence("axc", "ahbgdc"));
     }
@@ -14,7 +14,6 @@ class Solution {
         int is = 0, it = 0;
         while (is < cs.length) {
             if (it >= ct.length) {
-                return false;
             }
             if (cs[is] == ct[it]) {
                 is++;

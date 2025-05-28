@@ -1,8 +1,8 @@
-package cplus.leetcode.solution509;
+package cplus.leetcode.dp.easy;
 
-class Solution {
+class Solution509 {
     public static void main(String[] args) {
-        Solution so = new Solution();
+        Solution509 so = new Solution509();
         System.out.println(so.fib(2));
         System.out.println(so.fib(3));
         System.out.println(so.fib(4));

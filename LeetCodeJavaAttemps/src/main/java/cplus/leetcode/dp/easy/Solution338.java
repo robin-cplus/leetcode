@@ -1,10 +1,10 @@
-package cplus.leetcode.solution338;
+package cplus.leetcode.dp.easy;
 
 import java.util.Arrays;
 
-class Solution {
+class Solution338 {
     public static void main(String[] args) {
-        Solution so = new Solution();
+        Solution338 so = new Solution338();
         System.out.println(Arrays.toString(so.countBits(2)));
         System.out.println(Arrays.toString(so.countBits(5)));
     }

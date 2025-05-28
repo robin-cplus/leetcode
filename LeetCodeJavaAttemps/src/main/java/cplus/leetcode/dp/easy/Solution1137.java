@@ -1,8 +1,8 @@
-package cplus.leetcode.solution1137;
+package cplus.leetcode.dp.easy;
 
-class Solution {
+class Solution1137 {
     public static void main(String[] args) {
-        Solution so = new Solution();
+        Solution1137 so = new Solution1137();
         System.out.println(so.tribonacci(4));
         System.out.println(so.tribonacci(25));
     }

@@ -1,8 +1,8 @@
-package cplus.leetcode.solution1668;
+package cplus.leetcode.dp.easy;
 
-class Solution {
+class Solution1668 {
     public static void main(String[] args) {
-        Solution so = new Solution();
+        Solution1668 so = new Solution1668();
         System.out.println(so.maxRepeating("ababc", "ab"));
         System.out.println(so.maxRepeating("ababc", "ba"));
         System.out.println(so.maxRepeating("aaabaaaabaaabaaaabaaaabaaaabaaaaba", "aaaba"));

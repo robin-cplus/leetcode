@@ -1,11 +1,11 @@
-package cplus.leetcode.solution119;
+package cplus.leetcode.dp.easy;
 
 import java.util.ArrayList;
 import java.util.List;
 
-class Solution {
+class Solution119 {
     public static void main(String[] args) {
-        Solution so = new Solution();
+        Solution119 so = new Solution119();
         System.out.println(so.getRow(5));
     }
 

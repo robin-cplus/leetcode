@@ -1,8 +1,8 @@
-package cplus.leetcode.solution1025;
+package cplus.leetcode.dp.easy;
 
-class Solution {
+class Solution1025 {
     public static void main(String[] args) {
-        Solution so = new Solution();
+        Solution1025 so = new Solution1025();
         System.out.println(so.divisorGame(2));
         System.out.println(so.divisorGame(3));
     }

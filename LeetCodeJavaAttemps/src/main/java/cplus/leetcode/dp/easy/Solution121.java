@@ -1,8 +1,8 @@
-package cplus.leetcode.solution121;
+package cplus.leetcode.dp.easy;
 
-class Solution {
+class Solution121 {
     public static void main(String[] args) {
-        Solution so = new Solution();
+        Solution121 so = new Solution121();
         System.out.println(so.maxProfit(new int[]{7, 1, 5, 3, 6, 4}));
         System.out.println(so.maxProfit(new int[]{7, 6, 4, 3, 1}));
     }
